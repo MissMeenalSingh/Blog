@@ -1,4 +1,4 @@
-import React from './topbar.css'
+import './topbar.css'
 
 export default function Topbar() {
   return (
@@ -20,9 +20,8 @@ export default function Topbar() {
       </div>
       <div className='topRight'>
         <img className='topRightProfile' 
-          src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png'
-          alt=''
-        >  
+          src='https://dl.memuplay.com/new_market/img/com.vicman.newprofilepic.icon.2022-06-07-21-33-07.png'
+          alt=''>  
         </img>
         <i className="topRightSearch fa-solid fa-magnifying-glass"></i>
       </div>
