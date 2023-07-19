@@ -1,6 +1,6 @@
 .sidebar {
     flex: 2;
-    margin: 20px;
+    margin: 15px;
     padding-bottom: 30px;
     background-color: #fdfbfb;
     border-radius: 10px;
@@ -34,6 +34,7 @@
 
 .sidebarItem > p {
     padding: 30px;
+    font-family: 'Lora', serif;  
 }
 
 .sidebarList {

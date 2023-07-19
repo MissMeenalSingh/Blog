@@ -1,10 +1,12 @@
-import HomePage from "./pages/homePage/homePage.jsx";
-import Topbar from "./topbar/topbar.jsx";
+import HomePage from "./components/pages/homePage/homePage.jsx";
+import SinglePage from "./components/pages/singlePage/singlePage.jsx";
+import Topbar from "./components/topbar/topbar.jsx";
 function App() {
   return (
     <>
       <Topbar />
-      <HomePage/>
+      {/* <HomePage/> */}
+      <SinglePage/>
     </>
   );
 }
